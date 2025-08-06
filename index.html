@@ -13,48 +13,106 @@
     </header>
     <section>
         <form action="cad.php" method="post">
-            <label for="1">1. CLIENTE </label>
+            <label for="1">1 - CLIENTE </label>
             <input type="text" name="cliente" id="1">
 
-            <label for="2">2. PV - VERSÃO </label>
+            <label for="2">2 - PV - VERSÃO </label>
             <input type="text" name="pv" id="2">
 
-            <label for="3">3. EQUIPAMENTO </label>
+            <label for="3">3 - EQUIPAMENTO </label>
             <input type="text" name="equipamento" id="3">
 
-            <label for="4">4. GESTOR</label>
+            <label for="4">4 - GESTOR</label>
             <select name="gestor" id="4">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
 
-            <label for="5">5. E-MAIL DO GESTOR </label>
+            <label for="5">5 - E-MAIL DO GESTOR </label>
             <select name="email" id="5">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
 
-            <label for="6">6. NÚMEROS DE SÉRIE</label><br>
+            <label for="6">6 - NÚMEROS DE SÉRIE</label><br>
             <textarea name="nserie" id="6" rows="5" cols="70"></textarea><br><br>
 
-            <h2>ANÁLISE DE RISCO DO AMBIENTE DE VALIDAÇÃO</h2><br><br>
+            <h2>7. ANÁLISE DE RISCO DO AMBIENTE DE VALIDAÇÃO</h2><br><br>
 
-            <label for="7">7. OS CABOS ELETRICOS DA CELULA ESTÃO PROTEGIDOS E EM BOAS CONDIÇÕES?</label>
-            <input type="text" name="cabos" id="7">
-
-            <label for="8">8. HÁ CONEXÕES EXPOSTAS COM RISCO EMINENTE DE CHOQUE ELÉTRICO?</label>
-            <input type="text" name="conexões" id="8">
-
-            <label for="9">9. NOS PAINEIS ELETRICOS ESTÁ IDENTIFICADO A TENSÃO DE ALIMENTAÇÃO?</label>
-            <div class="radios">
-                <label><input type="radio" name="tensao_painel" value="SIM">SIM</label>
-                <label><input type="radio" name="tensao_painel" value="NAO"> NÃO</label>
-                <label><input type="radio" name="tensao_painel" value="PARCIAL"> PARCIAL</label>
+            <label for="7.1">7.1 - OS CABOS ELETRICOS DA CELULA ESTÃO PROTEGIDOS E EM BOAS CONDIÇÕES?</label>
+             <div class="radios">
+                <label><input type="radio" name="7.1" value="SIM">SIM</label>
+                <label><input type="radio" name="7.1" value="NAO"> NÃO</label>
+                <label><input type="radio" name="7.1" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="7.5" value="N/A"> N/A</label>  
             </div>
+			<br>
 
+            <label for="7.2">7.2 - HÁ CONEXÕES EXPOSTAS COM RISCO EMINENTE DE CHOQUE ELÉTRICO?</label>
+             <div class="radios">
+                <label><input type="radio" name="7.2" value="SIM">SIM</label>
+                <label><input type="radio" name="7.2" value="NAO"> NÃO</label>
+                <label><input type="radio" name="7.2" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="7.5" value="N/A"> N/A</label>  
+            </div>
+			<br>
 
+            <label for="7.3">7.3 - NOS PAINEIS ELETRICOS ESTÁ IDENTIFICADO A TENSÃO DE ALIMENTAÇÃO?</label>
+            <div class="radios">
+                <label><input type="radio" name="7.3" value="SIM">SIM</label>
+                <label><input type="radio" name="7.3" value="NAO"> NÃO</label>
+                <label><input type="radio" name="7.3" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="7.5" value="N/A"> N/A</label>  
+            </div>
+			<br>
+              
+            <label for="7.4">7.4 - A TENSÃO MEDIDA NA ALIMENTAÇÃO ESTÁ CONFORME IDENTIFICAÇÃO DO PAINEL ELETRICO?</label>
+            <div class="radios">
+                <label><input type="radio" name="7.4" value="SIM">SIM</label>
+                <label><input type="radio" name="7.4" value="NAO"> NÃO</label>
+                <label><input type="radio" name="7.4" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="7.5" value="N/A"> N/A</label>  
+            </div>
+			<br>
+              
+            <label for="7.5">7.5 - AS FERRAMENTAS E INSTRUMENTOS DE MEDIÇÃO A SEREM UTILIZADOS NA VALIDAÇÃO ESTÃO ADEQUEADAS A NR10?</label>
+            <div class="radios">
+                <label><input type="radio" name="7.5" value="SIM">SIM</label>
+                <label><input type="radio" name="7.5" value="NAO"> NÃO</label>
+                <label><input type="radio" name="7.5" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="7.5" value="N/A"> N/A</label>
+            </div>
+			<br>
+              
+            <label for="7.6">7.6 - A CÉLULA DE VALIDAÇÃO ESTA DEMARCADA E IDENTIFICADA OS RISCOS PARA QUE PESSOAS NAO AUTORIZADAS NÃO PERMANEÇAM NO LOCAL DA
+VALIDAÇÃO?</label>
+            <div class="radios">
+                <label><input type="radio" name="7.6" value="SIM">SIM</label>
+                <label><input type="radio" name="7.6" value="NAO"> NÃO</label>
+                <label><input type="radio" name="7.6" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="7.6" value="N/A"> N/A</label>
+            </div>
+			<br>
+			
+            <label for="7.7">7.7 - HA ALGUM RISCO OU CONDIÇÃO INSEGURA IDENTIFICADO NO AMBIENTE DE VALIDAÇÃO?</label>
+            <div class="radios">
+                <label><input type="radio" name="7.7" value="SIM">SIM</label>
+                <label><input type="radio" name="7.7" value="NAO"> NÃO</label>
+                <label><input type="radio" name="7.7" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="7.7" value="N/A"> N/A</label>
+            </div>
+			<br>
+              
+            <label for="7.8">7.8 - Observações de Análise de Riscos do Ambiente de Validação.</label><br>
+            <textarea name="analise_risco" id="7.8" rows="5" cols="70"></textarea><br><br>  
+              
+              
+              
+              
+              
+              
 
             <input type="submit" value="Enviar">
         </form>
