@@ -65,3 +65,15 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+.radios {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.radios label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

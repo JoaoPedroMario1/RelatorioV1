@@ -41,12 +41,22 @@
 
             <h2>ANÁLISE DE RISCO DO AMBIENTE DE VALIDAÇÃO</h2><br><br>
 
-            <label for="7">OS CABOS ELETRICOS DA CELULA ESTÃO PROTEGIDOS E EM BOAS CONDIÇÕES?</label>
+            <label for="7">7. OS CABOS ELETRICOS DA CELULA ESTÃO PROTEGIDOS E EM BOAS CONDIÇÕES?</label>
             <input type="text" name="cabos" id="7">
 
+            <label for="8">8. HÁ CONEXÕES EXPOSTAS COM RISCO EMINENTE DE CHOQUE ELÉTRICO?</label>
+            <input type="text" name="conexões" id="8">
+
+            <label for="9">9. NOS PAINEIS ELETRICOS ESTÁ IDENTIFICADO A TENSÃO DE ALIMENTAÇÃO?</label>
+            <div class="radios">
+                <label><input type="radio" name="tensao_painel" value="SIM">SIM</label>
+                <label><input type="radio" name="tensao_painel" value="NAO"> NÃO</label>
+                <label><input type="radio" name="tensao_painel" value="PARCIAL"> PARCIAL</label>
+            </div>
 
 
-            <!--<input type="submit" value="Enviar">-->
+
+            <input type="submit" value="Enviar">
         </form>
     </section>
     
