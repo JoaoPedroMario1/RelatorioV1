@@ -38,8 +38,8 @@ form label {
     border-radius: 5px;
 }
 
-input {
-    width: 100%;
+input, select, textarea {
+    width: 80%;
     padding: 12px 20px;
     font-size: 1em;
     margin: 8px 0;
@@ -47,7 +47,6 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    max-width: 400px;
 }
   
 input[type=submit] {
