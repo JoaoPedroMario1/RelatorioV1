@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação com formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Relatório CTS</h1>
+    </header>
+    <section>
+        <form action="cad.php" method="post">
+            <label for="idcliente">CLIENTE </label>
+            <input type="text" name="cliente" id="idcliente">
+
+            <label for="idpv">PV - VERSÃO </label>
+            <input type="text" name="pv" id="idpv">
+
+            <label for="idequipamento">EQUIPAMENTO </label>
+            <input type="text" name="equipamento" id="idequipamento">
+
+            <label for="idgestor">GESTOR</label>
+            <select name="gestor" id="idgestor">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <label for="idemail">E-MAIL DO GESTOR </label>
+            <select name="email" id="idemail">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <label for="idnserie">NÚMEROS DE SÉRIE</label><br>
+            <textarea name="nserie" id="idnserie" rows="5" cols="70"></textarea><br><br>
+
+            <h2>ANÁLISE DE RISCO DO AMBIENTE DE VALIDAÇÃO</h2>
+
+
+
+
+
+            <!--<input type="submit" value="Enviar">-->
+        </form>
+    </section>
+    
+</body>
+</html>
