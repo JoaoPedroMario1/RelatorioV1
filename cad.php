@@ -11,7 +11,7 @@ $sobrenome = $_POST['sobrenome'] ?? 'Desconhecido';
 // Cria uma instância do mPDF
 $mpdf = new Mpdf();
 
-// Lê o CSS do seu arquivo externo
+// Lê o CSS
 $css = file_get_contents(__DIR__ . '/style.css');
 $mpdf->WriteHTML($css, \Mpdf\HTMLParserMode::HEADER_CSS);
 
