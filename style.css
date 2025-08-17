@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-/* ELEMENTOS DA INTERFACE */
-
 body {
     background-color: #f3f3f3;
     display: flex;
@@ -14,6 +12,10 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+}
+
+section{
+    width: 50%;
 }
 
 h1 {
