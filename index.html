@@ -39,6 +39,8 @@
             <label for="p6">6 - NÚMEROS DE SÉRIE</label><br>
             <textarea name="nserie" id="6" rows="5" cols="70"></textarea><br><br>
 
+            <!-- ------------------ ANÁLISE DE RISCO DO AMBIENTE DE VALIDAÇÃO ------------------ -->
+
             <h2>7. ANÁLISE DE RISCO DO AMBIENTE DE VALIDAÇÃO</h2><br><br>
 
             <label for="p7.1">7.1 - OS CABOS ELETRICOS DA CELULA ESTÃO PROTEGIDOS E EM BOAS CONDIÇÕES?</label>
@@ -108,6 +110,8 @@ VALIDAÇÃO?</label>
             <label for="p7.8">7.8 - Observações de Análise de Riscos do Ambiente de Validação.</label><br>
             <textarea name="analise_risco" id="7.8" rows="5" cols="70"></textarea><br><br>  
               
+            <!-- ------------------ ANÁLISE VISUAL - ACABAMENTOS E IDENTIFICAÇÕES ------------------ -->
+
             <h2>8. ANÁLISE VISUAL - ACABAMENTOS E IDENTIFICAÇÕES</h2><br><br>
 
             <label for="p8.1">8.1 - OS EQUIPAMENTOS E INSTRUMENTOS CONTIDOS NO FLUXOGRAMA P&D ESSTÃO DISPONÍVEIS PARA A REALIZAÇÃO DA VALIDAÇÃO?</label>
@@ -450,9 +454,134 @@ VALIDAÇÃO?</label>
                 <label><input type="radio" name="8.36" value="PARCIAL"> PARCIAL</label>
                 <label><input type="radio" name="8.36" value="N/A"> N/A</label>
             </div>
-			<br><br>
+			<br>
 
-            <h2>9. ANÁLISE FUNCIONAL - ACIONAMENTOS MECÂNICOS</h2>
+            <label for="p8.37">8.37 - Observações de Análise Visual das Máquinas.</label><br>
+            <textarea name="analise_risco" id="8.37" rows="5" cols="70"></textarea><br><br>
+            
+            <!-- ------------------ ANÁLISE FUNCIONAL - ACIONAMENTOS MECÂNICOS ------------------ -->
+
+            <h2>9. ANÁLISE FUNCIONAL - ACIONAMENTOS MECÂNICOS</h2><br><br>
+
+            <label for="p9.1">9.1 -  O ENCODER DA BOMBA ESTÁ FIXO EM CONFORMIDADE DO PROJETO DE FORMA QUE NÃO AFETE O FUNCIONAL DA BOMBA?</label>
+              <div class="radios">
+                <label><input type="radio" name="9.1" value="SIM">SIM</label>
+                <label><input type="radio" name="9.1" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.1" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.1" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.2">9.2 - AVALIAR SE O SENTIDO DA BOMBA ESTA CORRETO NO ACIONAMENTO:</label>
+              <div class="radios">
+                <label><input type="radio" name="9.2" value="SIM">SIM</label>
+                <label><input type="radio" name="9.2" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.2" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.2" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.3">9.3 - AVALIAR O NÍVEL DE ÓLEO DA BOMBA DURANTE O ACIONAMENTO:</label>
+              <div class="radios">
+                <label><input type="radio" name="9.3" value="SIM">SIM</label>
+                <label><input type="radio" name="9.3" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.3" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.3" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.4">9.4 - AVALIAR O FUNCIONAMENTO DO BATEDOR DO TANQUE (SENTIDO DE GIRO CORRETO E EXCESSO DE ATRITO):</label>
+              <div class="radios">
+                <label><input type="radio" name="9.4" value="SIM">SIM</label>
+                <label><input type="radio" name="9.4" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.4" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.4" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.5">9.5 - AVALIAR O FUNCIONAMENTO DO BATEDOR DO DOSADOR DE PÓ (ALINHAMENTO CAPA DE PROTEÇÃO, EIXO E EXCENTRICIDADE DO BATEDOR):</label>
+              <div class="radios">
+                <label><input type="radio" name="9.5" value="SIM">SIM</label>
+                <label><input type="radio" name="9.5" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.5" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.5" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.6">9.6 - AVALIAR O FUNCIONAMENTO DA ROSCA DO DOSADOR DE PÓ (EXCENTRICIDADE DO EIXO E ROSCA):</label>
+              <div class="radios">
+                <label><input type="radio" name="9.6" value="SIM">SIM</label>
+                <label><input type="radio" name="9.6" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.6" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.6" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.7">9.7 - AVALIAR A ABERTURA E FECHAMENTO DAS TAMPAS DO CONJUNTO DE REGISTROS DA MÁQUINA:</label>
+              <div class="radios">
+                <label><input type="radio" name="9.7" value="SIM">SIM</label>
+                <label><input type="radio" name="9.7" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.7" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.7" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.8">9.8 - AVALIAR O FUNCIONAMENTO DO TRANSFERIDOR DE PÓ (ALINHAMENTO DAS HASTES, ABERTURA E FECHAMENTO DA TRAMPA DO TRANSFERIDOR DE PÓ):</label>
+              <div class="radios">
+                <label><input type="radio" name="9.8" value="SIM">SIM</label>
+                <label><input type="radio" name="9.8" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.8" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.8" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.9">9.9 - AVALIAR O ACIONAMENTO DE ABERTURA E FECHAMENTO DO ESTATOR DA MÁQUINA:</label>
+              <div class="radios">
+                <label><input type="radio" name="9.9" value="SIM">SIM</label>
+                <label><input type="radio" name="9.9" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.9" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.9" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.10">9.10 - AVALIAR O FUNCIONAMENTO DO BOWL QUANTO A PRESENÇA DE ATRITO ENTRE O ESTATOR DA MÁQUINA E O BOWL:</label>
+              <div class="radios">
+                <label><input type="radio" name="9.10" value="SIM">SIM</label>
+                <label><input type="radio" name="9.10" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.10" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.10" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.11">9.11 - AVALIAR O FUNCIONAMENTO DO ATOMIZADOR DA MÁQUINA (SENTIDO DE GIRO, RUIDO E AQUECIMENTO):</label>
+              <div class="radios">
+                <label><input type="radio" name="9.11" value="SIM">SIM</label>
+                <label><input type="radio" name="9.11" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.11" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.11" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.12">9.12 - AVALIAR O FUNCIONAMENTO DO SISTEMA DE EXAUSTÃO DE AR (SENTIDO DE GIRO, RUÍDO, VIBRAÇÕES E FLUXO DE AR):</label>
+              <div class="radios">
+                <label><input type="radio" name="9.12" value="SIM">SIM</label>
+                <label><input type="radio" name="9.12" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.12" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.12" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.13">9.13 - AVALIAR FUNCIONAMENTO DO SELETOR DE SILO (MECANISMO DE SELEÇÃO DE LADO E STATUS):</label>
+              <div class="radios">
+                <label><input type="radio" name="9.13" value="SIM">SIM</label>
+                <label><input type="radio" name="9.13" value="NAO"> NÃO</label>
+                <label><input type="radio" name="9.13" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="9.13" value="N/A"> N/A</label>
+            </div>
+            <br>
+
+            <label for="p9.14">9.14 - CASO TENHA ALGUMA OBSERVAÇÃO SOBRE OS ACIONAMENTOS MECÂNICOS:</label><br>
+            <textarea name="analise_risco" id="9.14" rows="5" cols="70"></textarea><br><br>
 
 
               
