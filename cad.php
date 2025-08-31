@@ -11,8 +11,14 @@ $equipamento = $_POST['equipamento'];
 $gestor = $_POST['gestor'];
 $email = $_POST['email'];
 $nserie = $_POST['nserie'];
-$p71 = $_POST['7.1'];
-
+$p71 = $_POST['71'];
+$p72 = $_POST['72'];
+$p73 = $_POST['73'];
+$p74 = $_POST['74'];
+$p75 = $_POST['75'];
+$p76 = $_POST['76'];
+$p77 = $_POST['77'];
+$p78 = $_POST['78'];
 
 
 // Cria uma instância do mPDF
@@ -37,6 +43,14 @@ $html = '
         <p>6 - NUMEROS DE SERIE: <br>' . nl2br(htmlspecialchars($nserie)) . ' </p>
         <h2>7. ANÁLISE DE RISCO DO AMBIENTE DE VALIDAÇÃO</h2><br><br>
         <p>7.1 - OS CABOS ELETRICOS DA CELULA ESTÃO PROTEGIDOS E EM BOAS CONDIÇÕES? <br>' . htmlspecialchars($p71) . ' </p>
+        <p>7.2 - HÁ CONEXÕES EXPOSTAS COM RISCO EMINENTE DE CHOQUE ELÉTRICO? <br>' . htmlspecialchars($p72) . ' </p>
+        <p>7.3 - PAINEIS ELETRICOS ESTÁ IDENTIFICADO A TENSÃO DE ALNOSIMENTAÇÃO? <br>' . htmlspecialchars($p73) . ' </p>
+        <p>7.4 - A TENSÃO MEDIDA NA ALIMENTAÇÃO ESTÁ CONFORME IDENTIFICAÇÃO DO PAINEL ELETRICO? <br>' . htmlspecialchars($p74) . ' </p>
+        <p>7.5 - AS FERRAMENTAS E INSTRUMENTOS DE MEDIÇÃO A SEREM UTILIZADOS NA VALIDAÇÃO ESTÃO ADEQUEADAS A NR10? <br>' . htmlspecialchars($p75) . ' </p>
+        <p>7.6 - 7.6 - A CÉLULA DE VALIDAÇÃO ESTA DEMARCADA E IDENTIFICADA OS RISCOS PARA QUE PESSOAS NAO AUTORIZADAS NÃO PERMANEÇAM NO LOCAL DA
+VALIDAÇÃO? <br>' . htmlspecialchars($p76) . ' </p>
+        <p>7.7 - HA ALGUM RISCO OU CONDIÇÃO INSEGURA IDENTIFICADO NO AMBIENTE DE VALIDAÇÃO? <br>' . htmlspecialchars($p77) . ' </p>
+        <p>7.8 - Observações de Análise de Riscos do Ambiente de Validação. <br>' . nl2br(htmlspecialchars($p78)) . ' </p>
     </main>
 ';
 
