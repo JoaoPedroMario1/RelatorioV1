@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario CTS</title>
-    <link rel="stylesheet" href="img/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,32 +12,33 @@
         <h1>Relatório CTS</h1>
     </header>
     <section>
+      
         <form action="cad.php" method="post">
-            <label for="p1">1 - CLIENTE </label>
-            <input type="text" name="cliente" id="1">
+            <label for="1">1 - CLIENTE </label>
+            <input type="text" name="cliente" id="p1">
 
-            <label for="p2">2 - PV - VERSÃO </label>
-            <input type="text" name="pv" id="2">
+            <label for="2">2 - PV - VERSÃO </label>
+            <input type="text" name="pv" id="p2">
 
-            <label for="p3">3 - EQUIPAMENTO </label>
-            <input type="text" name="equipamento" id="3">
+            <label for="3">3 - EQUIPAMENTO </label>
+            <input type="text" name="equipamento" id="p3">
 
-            <label for="p4">4 - GESTOR</label>
-            <select name="gestor" id="4">
+            <label for="4">4 - GESTOR</label>
+            <select name="gestor" id="p4">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
 
-            <label for="p5">5 - E-MAIL DO GESTOR </label>
-            <select name="email" id="5">
+            <label for="5">5 - E-MAIL DO GESTOR </label>
+            <select name="email" id="p5">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
 
-            <label for="p6">6 - NÚMEROS DE SÉRIE</label><br>
-            <textarea name="nserie" id="6" rows="5" cols="70"></textarea><br><br>
+            <label for="6">6 - NÚMEROS DE SÉRIE</label><br>
+            <textarea name="nserie" id="p6" rows="5" cols="70"></textarea><br><br>
 
             <!-- ------------------ ANÁLISE DE RISCO DO AMBIENTE DE VALIDAÇÃO ------------------ -->
 
@@ -48,181 +49,181 @@
                 <label><input type="radio" name="7.1" value="SIM">SIM</label>
                 <label><input type="radio" name="7.1" value="NAO"> NÃO</label>
                 <label><input type="radio" name="7.1" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="7.5" value="N/A"> N/A</label>  
+                <label><input type="radio" name="7.1" value="N/A"> N/A</label>  
             </div>
 			<br>
 
-            <label for="p7.2">7.2 - HÁ CONEXÕES EXPOSTAS COM RISCO EMINENTE DE CHOQUE ELÉTRICO?</label>
+            <label for="7.2">7.2 - HÁ CONEXÕES EXPOSTAS COM RISCO EMINENTE DE CHOQUE ELÉTRICO?</label>
              <div class="radios">
-                <label><input type="radio" name="7.2" value="SIM">SIM</label>
-                <label><input type="radio" name="7.2" value="NAO"> NÃO</label>
-                <label><input type="radio" name="7.2" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="7.5" value="N/A"> N/A</label>  
+                <label><input type="radio" name="p7.2" value="SIM">SIM</label>
+                <label><input type="radio" name="p7.2" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p7.2" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p7.5" value="N/A"> N/A</label>  
             </div>
 			<br>
 
-            <label for="p7.3">7.3 - NOS PAINEIS ELETRICOS ESTÁ IDENTIFICADO A TENSÃO DE ALIMENTAÇÃO?</label>
+            <label for="7.3">7.3 - NOS PAINEIS ELETRICOS ESTÁ IDENTIFICADO A TENSÃO DE ALIMENTAÇÃO?</label>
             <div class="radios">
-                <label><input type="radio" name="7.3" value="SIM">SIM</label>
-                <label><input type="radio" name="7.3" value="NAO"> NÃO</label>
-                <label><input type="radio" name="7.3" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="7.5" value="N/A"> N/A</label>  
+                <label><input type="radio" name="p7.3" value="SIM">SIM</label>
+                <label><input type="radio" name="p7.3" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p7.3" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p7.5" value="N/A"> N/A</label>  
             </div>
 			<br>
               
-            <label for="p7.4">7.4 - A TENSÃO MEDIDA NA ALIMENTAÇÃO ESTÁ CONFORME IDENTIFICAÇÃO DO PAINEL ELETRICO?</label>
+            <label for="7.4">7.4 - A TENSÃO MEDIDA NA ALIMENTAÇÃO ESTÁ CONFORME IDENTIFICAÇÃO DO PAINEL ELETRICO?</label>
             <div class="radios">
-                <label><input type="radio" name="7.4" value="SIM">SIM</label>
-                <label><input type="radio" name="7.4" value="NAO"> NÃO</label>
-                <label><input type="radio" name="7.4" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="7.5" value="N/A"> N/A</label>  
+                <label><input type="radio" name="p7.4" value="SIM">SIM</label>
+                <label><input type="radio" name="p7.4" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p7.4" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p7.5" value="N/A"> N/A</label>  
             </div>
 			<br>
               
-            <label for="p7.5">7.5 - AS FERRAMENTAS E INSTRUMENTOS DE MEDIÇÃO A SEREM UTILIZADOS NA VALIDAÇÃO ESTÃO ADEQUEADAS A NR10?</label>
+            <label for="7.5">7.5 - AS FERRAMENTAS E INSTRUMENTOS DE MEDIÇÃO A SEREM UTILIZADOS NA VALIDAÇÃO ESTÃO ADEQUEADAS A NR10?</label>
             <div class="radios">
-                <label><input type="radio" name="7.5" value="SIM">SIM</label>
-                <label><input type="radio" name="7.5" value="NAO"> NÃO</label>
-                <label><input type="radio" name="7.5" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="7.5" value="N/A"> N/A</label>
+                <label><input type="radio" name="p7.5" value="SIM">SIM</label>
+                <label><input type="radio" name="p7.5" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p7.5" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p7.5" value="N/A"> N/A</label>
             </div>
 			<br>
               
-            <label for="p7.6">7.6 - A CÉLULA DE VALIDAÇÃO ESTA DEMARCADA E IDENTIFICADA OS RISCOS PARA QUE PESSOAS NAO AUTORIZADAS NÃO PERMANEÇAM NO LOCAL DA
+            <label for="7.6">7.6 - A CÉLULA DE VALIDAÇÃO ESTA DEMARCADA E IDENTIFICADA OS RISCOS PARA QUE PESSOAS NAO AUTORIZADAS NÃO PERMANEÇAM NO LOCAL DA
 VALIDAÇÃO?</label>
             <div class="radios">
-                <label><input type="radio" name="7.6" value="SIM">SIM</label>
-                <label><input type="radio" name="7.6" value="NAO"> NÃO</label>
-                <label><input type="radio" name="7.6" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="7.6" value="N/A"> N/A</label>
+                <label><input type="radio" name="p7.6" value="SIM">SIM</label>
+                <label><input type="radio" name="p7.6" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p7.6" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p7.6" value="N/A"> N/A</label>
             </div>
 			<br>
 			
-            <label for="p7.7">7.7 - HA ALGUM RISCO OU CONDIÇÃO INSEGURA IDENTIFICADO NO AMBIENTE DE VALIDAÇÃO?</label>
+            <label for="7.7">7.7 - HA ALGUM RISCO OU CONDIÇÃO INSEGURA IDENTIFICADO NO AMBIENTE DE VALIDAÇÃO?</label>
             <div class="radios">
-                <label><input type="radio" name="7.7" value="SIM">SIM</label>
-                <label><input type="radio" name="7.7" value="NAO"> NÃO</label>
-                <label><input type="radio" name="7.7" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="7.7" value="N/A"> N/A</label>
+                <label><input type="radio" name="p7.7" value="SIM">SIM</label>
+                <label><input type="radio" name="p7.7" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p7.7" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p7.7" value="N/A"> N/A</label>
             </div>
 			<br>
               
-            <label for="p7.8">7.8 - Observações de Análise de Riscos do Ambiente de Validação.</label><br>
-            <textarea name="analise_risco" id="7.8" rows="5" cols="70"></textarea><br><br>  
+            <label for="7.8">7.8 - Observações de Análise de Riscos do Ambiente de Validação.</label><br>
+            <textarea name="analise_risco" id="p7.8" rows="5" cols="70"></textarea><br><br>  
               
             <!-- ------------------ ANÁLISE VISUAL - ACABAMENTOS E IDENTIFICAÇÕES ------------------ -->
 
             <h2>8. ANÁLISE VISUAL - ACABAMENTOS E IDENTIFICAÇÕES</h2><br><br>
 
-            <label for="p8.1">8.1 - OS EQUIPAMENTOS E INSTRUMENTOS CONTIDOS NO FLUXOGRAMA P&D ESSTÃO DISPONÍVEIS PARA A REALIZAÇÃO DA VALIDAÇÃO?</label>
+            <label for="8.1">8.1 - OS EQUIPAMENTOS E INSTRUMENTOS CONTIDOS NO FLUXOGRAMA P&D ESSTÃO DISPONÍVEIS PARA A REALIZAÇÃO DA VALIDAÇÃO?</label>
             <div class="radios">
-                <label><input type="radio" name="8.1" value="SIM">SIM</label>
-                <label><input type="radio" name="8.1" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.1" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.1" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.1" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.1" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.1" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.1" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.2">8.2 - OS EQUIPAMENTOS ESTÃO IDENTIFICADOS COM PLAQUETAS E NUMERO DE SERIE?</label>
+            <label for="8.2">8.2 - OS EQUIPAMENTOS ESTÃO IDENTIFICADOS COM PLAQUETAS E NUMERO DE SERIE?</label>
             <div class="radios">
-                <label><input type="radio" name="8.2" value="SIM">SIM</label>
-                <label><input type="radio" name="8.2" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.2" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.2" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.2" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.2" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.2" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.2" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.3">8.3 - OS PAINEIS ESTAO NA CONFORMIDADE COM OS RESPECTIVOS LAYOUTS INTERNOS E EXTERNOS DO PROJETO?</label>
+            <label for="8.3">8.3 - OS PAINEIS ESTAO NA CONFORMIDADE COM OS RESPECTIVOS LAYOUTS INTERNOS E EXTERNOS DO PROJETO?</label>
               <div class="radios">
-                <label><input type="radio" name="8.3" value="SIM">SIM</label>
-                <label><input type="radio" name="8.3" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.3" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.3" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.3" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.3" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.3" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.3" value="N/A"> N/A</label>
             </div>
 			<br>
               
-            <label for="p8.4">8.4 - OS COMPONENTES INSTALADOS ESTAO NA CONFORMIDADE E NA ORDEM DO PROJETO ELETRICO?</label>
+            <label for="8.4">8.4 - OS COMPONENTES INSTALADOS ESTAO NA CONFORMIDADE E NA ORDEM DO PROJETO ELETRICO?</label>
               <div class="radios">
-                <label><input type="radio" name="8.4" value="SIM">SIM</label>
-                <label><input type="radio" name="8.4" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.4" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.4" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.4" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.4" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.4" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.4" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.5">8.5 - A IDENTIFICAÇÃO DAS CORRENTES DOS DISJUNTORES ESTA EM CONFORMIDADE COM O PROJETO?</label>
+            <label for="8.5">8.5 - A IDENTIFICAÇÃO DAS CORRENTES DOS DISJUNTORES ESTA EM CONFORMIDADE COM O PROJETO?</label>
               <div class="radios">
-                <label><input type="radio" name="8.5" value="SIM">SIM</label>
-                <label><input type="radio" name="8.5" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.5" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.5" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.5" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.5" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.5" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.5" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.6">8.6 - OS INVERSORES, CONTATORES E FONTES ESTAO EM CONFORMIDADE COM O PROJETO?</label>
+            <label for="8.6">8.6 - OS INVERSORES, CONTATORES E FONTES ESTAO EM CONFORMIDADE COM O PROJETO?</label>
               <div class="radios">
-                <label><input type="radio" name="8.6" value="SIM">SIM</label>
-                <label><input type="radio" name="8.6" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.6" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.6" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.6" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.6" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.6" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.6" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.6">8.6 - OS INVERSORES, CONTATORES E FONTES ESTAO EM CONFORMIDADE COM O PROJETO?</label>
+            <label for="8.6">8.6 - OS INVERSORES, CONTATORES E FONTES ESTAO EM CONFORMIDADE COM O PROJETO?</label>
               <div class="radios">
-                <label><input type="radio" name="8.6" value="SIM">SIM</label>
-                <label><input type="radio" name="8.6" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.6" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.6" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.6" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.6" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.6" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.6" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.7">8.7 - O NOBREAK ESTÁ CONFORME?</label>
+            <label for="8.7">8.7 - O NOBREAK ESTÁ CONFORME?</label>
               <div class="radios">
-                <label><input type="radio" name="8.7" value="SIM">SIM</label>
-                <label><input type="radio" name="8.7" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.7" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.7" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.7" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.7" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.7" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.7" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.8">8.8 - AS IDENTIFICAÇÕES DE TAGS, IDENTIFICADORES DE GRUPO, ANILHAS E IDENTIFICADORES DE BORNE ESTÃO CONFORME O PROJETO?</label>
+            <label for="8.8">8.8 - AS IDENTIFICAÇÕES DE TAGS, IDENTIFICADORES DE GRUPO, ANILHAS E IDENTIFICADORES DE BORNE ESTÃO CONFORME O PROJETO?</label>
               <div class="radios">
-                <label><input type="radio" name="8.8" value="SIM">SIM</label>
-                <label><input type="radio" name="8.8" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.8" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.8" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.8" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.8" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.8" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.8" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.9">8.9 - CABOS ESTÃO EM CONFORMIDADE COM O PROJETO? (BITOLA, COR E APLICAÇÃO)?</label>
+            <label for="8.9">8.9 - CABOS ESTÃO EM CONFORMIDADE COM O PROJETO? (BITOLA, COR E APLICAÇÃO)?</label>
               <div class="radios">
-                <label><input type="radio" name="8.9" value="SIM">SIM</label>
-                <label><input type="radio" name="8.9" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.9" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.9" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.9" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.9" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.9" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.9" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.10">8.10 - OS PAINEIS ESTÃO CORRETAMENTE ATERRADOS E CONFORME O PROJETO? (BITOLA, COR E BARRAMENTO)? </label>
+            <label for="8.10">8.10 - OS PAINEIS ESTÃO CORRETAMENTE ATERRADOS E CONFORME O PROJETO? (BITOLA, COR E BARRAMENTO)? </label>
               <div class="radios">
-                <label><input type="radio" name="8.10" value="SIM">SIM</label>
-                <label><input type="radio" name="8.10" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.10" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.10" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.10" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.10" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.10" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.10" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.11">8.11 - OS CONECTORES/TERMINAIS ESTAO COM NO MÁXIMO 02 CONDUTORES, (EXCETO FECHAMENTO DOS MOTORES) E CONFORME O PROJETO?</label>
+            <label for="8.11">8.11 - OS CONECTORES/TERMINAIS ESTAO COM NO MÁXIMO 02 CONDUTORES, (EXCETO FECHAMENTO DOS MOTORES) E CONFORME O PROJETO?</label>
               <div class="radios">
-                <label><input type="radio" name="8.11" value="SIM">SIM</label>
-                <label><input type="radio" name="8.11" value="NAO"> NÃO</label>
-                <label><input type="radio" name="8.11" value="PARCIAL"> PARCIAL</label>
-                <label><input type="radio" name="8.11" value="N/A"> N/A</label>
+                <label><input type="radio" name="p8.11" value="SIM">SIM</label>
+                <label><input type="radio" name="p8.11" value="NAO"> NÃO</label>
+                <label><input type="radio" name="p8.11" value="PARCIAL"> PARCIAL</label>
+                <label><input type="radio" name="p8.11" value="N/A"> N/A</label>
             </div>
 			<br>
 
-            <label for="p8.12">8.12 - HÁ SOBRA DE CABOS NA CANALETA?</label>
+            <label for="8.12">8.12 - HÁ SOBRA DE CABOS NA CANALETA?</label>
               <div class="radios">
                 <label><input type="radio" name="8.12" value="SIM">SIM</label>
                 <label><input type="radio" name="8.12" value="NAO"> NÃO</label>

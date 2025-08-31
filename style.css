@@ -79,3 +79,15 @@ input[type=submit]:hover {
   align-items: center;
   gap: 6px;
 }
+
+
+
+@media print {
+    body {
+        background: none !important;
+    }
+
+    h1, h2{
+        text-align: center;
+    }
+}
